@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+  --LightRed: hsl(0, 100%, 67%);
+  --OrengyYellow: hsl(39, 100%, 56%);
+  --GreenTeal: hsl(166, 100%, 37%);
+  --CobaltBlue: hsl(234, 85%, 45%);
+  --SlateBlue: hsl(252, 100%, 67%);
+  --RoyalBlue: hsl(241, 81%, 54%);
+  --ViolateBlue: hsla(256, 72%, 46%, 1);
+  --PersianBlue: hsla(241, 72%, 46%, 0);
+  --White: hsl(0, 0, 100%);
+  --PaleBlue: hsl(221, 100%, 96%);
+  --LightLavender: hsl(241, 100%, 89%);
+  --GrayBlue: hsl(224, 30%, 27%);
+}
+body {
+  margin: 0;
+  height: 100vh; /* Set the body height to the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

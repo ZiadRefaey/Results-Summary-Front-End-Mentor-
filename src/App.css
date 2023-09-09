@@ -1,0 +1,7 @@
+.app-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 700px;
+  margin: auto;
+  min-height: 45vh;
+}

@@ -1,0 +1,45 @@
+.results {
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+  background: linear-gradient(to bottom, var(--SlateBlue), var(--RoyalBlue));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem;
+  text-align: center;
+  color: hsla(221, 100%, 96%, 70%);
+  border-radius: 25px;
+}
+.results-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+.results-score {
+  border-radius: 50%;
+  height: 190px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  flex-direction: column;
+  background: linear-gradient(
+    to bottom,
+    var(--ViolateBlue),
+    var(--PersianBlue)
+  );
+  width: 75%;
+}
+.your-score {
+  font-size: 4.5rem;
+  margin: -10px;
+  color: white;
+  font-weight: 800;
+}
+.results-tag {
+  font-size: 28px;
+  color: white;
+  font-weight: 700;
+  margin: 15px;
+}

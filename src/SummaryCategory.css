@@ -1,0 +1,27 @@
+.summary-category {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 20px 0px;
+}
+.LHS-summary-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.icon {
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.my-score {
+  color: var(--GrayBlue);
+  font-weight: 800;
+}
+.score {
+  color: hsla(224, 30%, 27%, 70%);
+}

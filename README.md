@@ -9,4 +9,6 @@ Currently, two official plugins are available:
 
 # Front End Mentor Newbie Challenge
 
-this is my solution to the front end mentor challenge found in https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV
+this is my solution to the front end mentor challenge found in
+
+https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV

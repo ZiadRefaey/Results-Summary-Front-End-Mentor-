@@ -1,7 +1,12 @@
 .app-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   max-width: 700px;
   margin: auto;
-  min-height: 45vh;
+  height: 60vh;
+  transform: scale(1.2);
+  box-shadow: 25px 15px 35px rgba(0, 0, 0, 0.1);
+}
+@media screen {
 }

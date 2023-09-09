@@ -6,10 +6,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 3rem;
+  padding: 2rem 3rem;
   text-align: center;
   color: hsla(221, 100%, 96%, 70%);
   border-radius: 25px;
+  height: 100%;
+  overflow: none;
 }
 .results-title {
   font-size: 22px;
@@ -17,12 +19,12 @@
 }
 .results-score {
   border-radius: 50%;
-  height: 190px;
+  height: 220px;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px;
+  margin: 20px;
   flex-direction: column;
   background: linear-gradient(
     to bottom,

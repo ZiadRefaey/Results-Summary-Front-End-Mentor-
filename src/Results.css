@@ -13,25 +13,27 @@
   height: 100%;
   overflow: none;
 }
+
 .results-title {
   font-size: 22px;
   font-weight: 500;
+  margin-bottom: 7px;
 }
 .results-score {
   border-radius: 50%;
-  height: 220px;
+  height: 200px;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin: 28px;
   flex-direction: column;
   background: linear-gradient(
     to bottom,
     var(--ViolateBlue),
     var(--PersianBlue)
   );
-  width: 75%;
+  width: 200px;
 }
 .your-score {
   font-size: 4.5rem;
@@ -44,4 +46,22 @@
   color: white;
   font-weight: 700;
   margin: 15px;
+}
+@media screen and (max-width: 375px) {
+  .results {
+    height: 44%;
+  }
+  .results-score {
+    height: 140px;
+    width: 140px;
+  }
+  .your-score {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .results {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
 }

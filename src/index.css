@@ -19,8 +19,12 @@
 }
 body {
   margin: 0;
-  height: 100vh; /* Set the body height to the viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (min-width: 676px) {
+  body {
+    height: 100vh;
+  }
 }

@@ -5,7 +5,6 @@
   justify-content: space-between;
   border-radius: 10px;
   padding: 10px 20px;
-  margin: 20px 0px;
 }
 .LHS-summary-category {
   display: flex;
@@ -23,5 +22,5 @@
   font-weight: 800;
 }
 .score {
-  color: hsla(224, 30%, 27%, 70%);
+  color: #303b59;
 }
